@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0.5rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: linear-gradient(to right, #565c5e, #b5c2c7);
+  color: #9d7463;
+}
+
+body {
+  background-image: -webkit-gradient(linear, left top, right top, from(#565c5e), to(#455954));
+  background-image: linear-gradient(to right, #565c5e, #455954);
+}
+
+.search-box {
+  text-align: center;
+}
+
+.headerAnime h3 {
+  font-size: 2em;
+}
+
+.animerow {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.animecard {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  padding: none;
+}
+
+img {
+  max-height: 85%;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #b5c2c7;
+}
+
+a:hover {
+  color: #dfdbd8;
+  font-size: 1.5em;
+}
+/*# sourceMappingURL=app.css.map */
